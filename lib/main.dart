@@ -4,7 +4,7 @@ import 'package:firebase_messaging_noti_v11/local_notification_service.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_messaging_noti_v11/redpage.dart';
 import 'package:firebase_messaging_noti_v11/greenpage.dart';
-import 'package:flutter/services.dart';
+
 
 //I have used HealthDemo FIrebase project. If you try to send the notification from the console via the App's users in the Target section
 //it will take really long... more than 5mins each time. But the TokenId method is really really fast. works faster.
@@ -167,8 +167,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
-
 
 //==========================
 
