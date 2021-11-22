@@ -1,0 +1,43 @@
+
+
+//topics??... this is a switch case code.. but for its server side refer to
+/*case 'subscribe':
+{
+print('FlutterFire Messaging Example: Subscribing to topic "fcm_test".');
+await FirebaseMessaging.instance.subscribeToTopic('fcm_test');
+print('FlutterFire Messaging Example: Subscribing to topic "fcm_test" successful.');
+}
+break;
+case 'unsubscribe':
+{
+print('FlutterFire Messaging Example: Unsubscribing from topic "fcm_test".');
+await FirebaseMessaging.instance.unsubscribeFromTopic('fcm_test');
+print('FlutterFire Messaging Example: Unsubscribing from topic "fcm_test" successful.');
+}
+break;*/
+
+
+==================================================
+for server side code put this===================
+
+const topic = 'highScores';
+
+const payload = {//you can also keep all the other stuff like your payload has in the glitch NOdeJs code
+  data: {
+    score: '850',
+    time: '2:45'
+  },
+  topic: topic
+};
+
+// Send a message to devices subscribed to the provided topic.
+getMessaging().send(message)
+  .then((response) => {
+    // Response is a message ID string.
+    console.log('Successfully sent message:', response);
+  })
+  .catch((error) => {
+    console.log('Error sending message:', error);
+  });
+
+  ===========================

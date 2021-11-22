@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "128760862582",
+    "firebase_url": "https://healthdemo-5320e.firebaseio.com",
+    "project_id": "healthdemo-5320e",
+    "storage_bucket": "healthdemo-5320e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128760862582:android:ccff090edca168b7",
+        "android_client_info": {
+          "package_name": "com.apps.yo.systemakvile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128760862582-1u5nj703f9u2u0557tfi1ma975mt9td8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.yo.systemakvile",
+            "certificate_hash": "37eea5e74584caf8e4483ddfc5f96e5cea0919e2"
+          }
+        },
+        {
+          "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNtYZDKawcWe4UOu6GXQd6dQQWseAG428"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128760862582:android:997fb4d9c027748d3a0c57",
+        "android_client_info": {
+          "package_name": "yo.apps.com.chatnoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNtYZDKawcWe4UOu6GXQd6dQQWseAG428"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128760862582:android:d37f46e21e7cfd833a0c57",
+        "android_client_info": {
+          "package_name": "yo.apps.com.firebase_messaging_noti_v11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNtYZDKawcWe4UOu6GXQd6dQQWseAG428"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128760862582:android:afd24321aee247ca3a0c57",
+        "android_client_info": {
+          "package_name": "yo.apps.com.firebasemessagingnoti900"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNtYZDKawcWe4UOu6GXQd6dQQWseAG428"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128760862582-hmkr74h3aap61r7ke2f8ob9kgvc7572l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
