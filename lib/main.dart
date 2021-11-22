@@ -100,6 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
     //can never get a headsUp... but after #Line XXX has been executed even once you will automatically get a headsUp.
     FirebaseMessaging.instance.getInitialMessage().then((message) {
       print("Back from Terminated state ============= ONTAP");
+      print(message.toString());
       if(message != null){
         print(message.notification?.body);
         print(message.notification?.title);
@@ -113,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
 
 
-    //forground work... this will only print to the console... you wont see or hear in the sysTray drawer
+    //forground work...when the app is open... this will only print to the console... you wont see or hear in the sysTray drawer
     FirebaseMessaging.onMessage.listen((message) {
       print("OnMessage()... fired when App is in an OPENED state");
       if(message.notification != null){
